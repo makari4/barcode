@@ -1,0 +1,29 @@
+{
+    "name": "makari4/barcode",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "PHP Barcode Generator",
+    "keywords": ["library", "barcode", "barcode39", "php"],
+    "homepage": "https://github.com/makari4/barcode",
+    "license": "BSD-3-Clause",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:makari4/barcode.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Tony"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "makari4\\barcode\\": ""
+        }
+    }
+
+}
